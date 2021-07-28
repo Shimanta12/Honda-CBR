@@ -9,13 +9,271 @@
     <!-- bootstrap css cdn -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- stylesheet link -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font awesome cdn -->
+    <script src="https://kit.fontawesome.com/2e8faf98f7.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header>
-        <h1>Welcome to my site</h1>
+    <!-----------------
+    header starts here 
+    ------------------->
+    <header class="bg-dark">
+        <!-----------------
+        navbar starts here 
+        ------------------->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item mx-3">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link active text-white" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link active text-white" href="#">News</a>
+                        </li>
+                        <li class="nav-item ms-3 me-5">
+                            <a class="nav-link active text-white" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item mx-5">
+                            <button class="button">Login</button>
+                        </li>
+                </div>
+            </div>
+        </nav>
+        <!-----------------
+        banner section starts here 
+        ------------------->
+        <section class="container my-5">
+            <div class="row d-flex align-items-center justify-content-around text-white">
+                <div class="col-md-5  col-12">
+                    <p>Computer-controlled digital transistorized with electronic advance</p>
+                    <h1>Honda CBR 300R</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit natus beatae alias aspernatur
+                        sapiente, harum fugiat fugit ullam quas. Magnam.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Purchase
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p class="text-dark">Mated to a six-speed transmission, the Honda CBR300R is powered
+                                        by a 286cc,
+                                        single-cylinder, liquid-cooled engine, producing 31PS of power at 8,500rpm and a
+                                        peak torque of 27Nm at 7,250rpm. The fuel-injected motor is a bored out version
+                                        of the 249cc engine seen on the CBR250R. Braking is done via a single 296mm disc
+                                        brake at the front and a 220mm disc at the rear. Additionally, ABS is offered as
+                                        standard. Suspension duties are taken care of by 37mm telescopic front forks and
+                                        a 5-step adjustable monoshock at the back.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7 col-12">
+                    <img class="img-fluid" src="images/header-bike.png" alt="">
+                </div>
+            </div>
+        </section>
     </header>
+    <!-----------------
+    main starts here 
+    ------------------->
     <main>
+        <!-----------------
+        featured bikes starts here 
+        ------------------->
+        <section class="container my-5">
+            <div class="text-center my-5">
+                <h1>Featured Bikes 2021</h1>
+                <h4>Best Bike Collection</h4>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <img class="grayscale-image img-fluid" src="images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <img class="img-fluid" src="images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <img class="grayscale-image img-fluid" src="images/feature-bike.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <!-----------------
+        happy clients starts here 
+        ------------------->
+        <section class="w-75 mx-auto my-5">
+            <h1 class="text-center my-3">Happy Clients says</h1>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="p-5">
+                            <img src="images/user-1.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body text-center">
+                            <p>Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <h5>Adam Lewis</h5>
+                            <h6>Banker</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="p-5">
+                            <img src="images/user-2.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body text-center">
+                            <p>Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <h5>Emma wattson</h5>
+                            <h6>Actress</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="p-5">
+                            <img src="images/user-3.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body text-center">
+                            <p>Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <h5>Regina Miles</h5>
+                            <h6>Doctor</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-----------------
+        frequently asked ques starts here 
+        ------------------->
+        <section class="container my-5">
+            <h1 class="text-center my-3">Frequently Asked Questions</h1>
+            <div class="row d-flex align-items-center">
+                <div class="col-md-6 col-12">
+                    <img class="img-fluid" src="images/faq.png" alt="">
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    <h4>What are the most important things I should
+                                        know about riding a bike?</h4>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the <code>.accordion-flush</code> class. This is the first item's
+                                    accordion body.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    <h4>How can I tell if my helmet is old and I need a
+                                        new one?</h4>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the <code>.accordion-flush</code> class. This is the second item's
+                                    accordion body. Let's imagine this being filled with some actual content.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    <h4>My bike has been in storage is it safe to ride?</h4>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the <code>.accordion-flush</code> class. This is the third item's
+                                    accordion body. Nothing more exciting happening here in terms of content, but just
+                                    filling up the space to make it look, at least at first glance, a bit more
+                                    representative of how this would look in a real-world application.</div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                        <h4>What rules should I follow when riding my bike?</h4>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is
+                                        intended to
+                                        demonstrate the <code>.accordion-flush</code> class. This is the third item's
+                                        accordion body. Nothing more exciting happening here in terms of content, but
+                                        just
+                                        filling up the space to make it look, at least at first glance, a bit more
+                                        representative of how this would look in a real-world application.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
 
     </main>
     <footer>
