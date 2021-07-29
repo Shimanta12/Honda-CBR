@@ -20,7 +20,7 @@
     <!-----------------
     header starts here 
     ------------------->
-    <header class="header">
+    <header class="header w-100">
         <!-----------------
         navbar starts here 
         ------------------->
@@ -280,7 +280,7 @@
         popularity progress starts here 
         ------------------->
         <section class="container my-5">
-            <h1 class="text-center">Our Popularity over <span class="red-text">the years.</span></h1>
+            <h1 class="text-center my-3">Our Popularity <span class="red-text">over the years.</span></h1>
             <h4><span class="text-primary">Year</span> 2016-17</h4>
             <div class="progress my-3">
                 <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 30%" aria-valuenow="10"
@@ -310,38 +310,40 @@
         <!-----------------
         forms starts here 
         ------------------->
-        <section id="purchase" class="container my-5">
+        <section class="container my-5">
             <h1 class="text-center my-5">Purchase any <span class="red-text">of our bike here.</span></h1>
             <form class="row g-3 bg-light p-3 rounded-3 shadow-lg">
                 <div class="col-md-6 col-12">
-                    <label for="inputEmail4" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="inputEmail4" required>
+                    <label for="inputFirstname" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="inputFirstname" autocomplete="off" required>
                 </div>
                 <div class="col-md-6 col-12">
-                    <label for="inputPassword4" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="inputPassword4" required>
+                    <label for="inputLastname" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="inputLastName" autocomplete="off" required>
+                </div>
+                <div class="col-md-6 col-12">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" autocomplete="off" required>
+                </div>
+                <div class="col-md-6 col-12">
+                    <label for="inputPhonenumber" class="form-label">Phone Number</label>
+                    <input type="tel" class="form-control" id="inputPhonenumber" autocomplete="off" required>
                 </div>
                 <div class="col-12">
                     <label for="inputAddress" class="form-label">Address</label>
-                    <input type="text" class="form-control" id="inputAddress"
-                        placeholder="Road no, Building or House code, floor" required>
-                </div>
-                <div class="col-12">
-                    <label for="inputAddress2" class="form-label">Address 2</label>
-                    <input type="text" class="form-control" id="inputAddress2"
-                        placeholder="Post Code, Post office, Thana or Upazila" required>
+                    <input type="text" class="form-control" id="inputAddress" autocomplete="off" required>
                 </div>
                 <div class="col-md-6 col-12">
                     <label for="inputCity" class="form-label">City</label>
-                    <input type="text" class="form-control" id="inputCity" required>
+                    <input type="text" class="form-control" id="inputCity" autocomplete="off" required>
                 </div>
                 <div class="col-md-4 col-12">
                     <label for="inputDivision" class="form-label">Division</label>
-                    <input type="text" class="form-control" id="inputDivision" required>
+                    <input type="text" class="form-control" id="inputDivision" autocomplete="off" required>
                 </div>
                 <div class="col-md-2 col-12">
                     <label for="inputModel" class="form-label">Bike Model</label>
-                    <input type="text" class="form-control" id="inputModel" required>
+                    <input type="text" class="form-control" id="inputModel" autocomplete="off" required>
                 </div>
                 <div class="col-12">
                     <div class="form-check">

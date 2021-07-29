@@ -1,3 +1,13 @@
+/***************
+google font import 
+ ***************/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/***************
+ bootstrap overriting styles
+****************/
+body {
+    font-family: 'Poppins', sans-serif;
+}
 .header {
     background-color: #264653;
 }
