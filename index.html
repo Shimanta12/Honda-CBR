@@ -9,17 +9,18 @@
     <!-- bootstrap css cdn -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font awesome kit -->
+    <script src="https://kit.fontawesome.com/2e8faf98f7.js" crossorigin="anonymous"></script>
     <!-- stylesheet link -->
     <link rel="stylesheet" href="css/style.css">
-    <!-- font awesome cdn -->
-    <script src="https://kit.fontawesome.com/2e8faf98f7.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
     <!-----------------
     header starts here 
     ------------------->
-    <header class="bg-dark">
+    <header class="header">
         <!-----------------
         navbar starts here 
         ------------------->
@@ -58,8 +59,8 @@
                 <div class="col-md-5  col-12">
                     <p>Computer-controlled digital transistorized with electronic advance</p>
                     <h1>Honda CBR 300R</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit natus beatae alias aspernatur
-                        sapiente, harum fugiat fugit ullam quas. Magnam.</p>
+                    <p>The Honda CBR300R is a bigger-displacement version of the CBR250R.
+                        Along came Yamaha with 320cc and two cylinders, KTM with 373cc and one cylinder.</p>
                     <!-- Button trigger modal -->
                     <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         Purchase
@@ -76,19 +77,19 @@
                                         aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    <p class="text-dark">Mated to a six-speed transmission, the Honda CBR300R is powered
+                                    <p class="text-dark fs-5">Mated to a six-speed transmission, the Honda CBR300R is
+                                        powered
                                         by a 286cc,
                                         single-cylinder, liquid-cooled engine, producing 31PS of power at 8,500rpm and a
                                         peak torque of 27Nm at 7,250rpm. The fuel-injected motor is a bored out version
                                         of the 249cc engine seen on the CBR250R. Braking is done via a single 296mm disc
-                                        brake at the front and a 220mm disc at the rear. Additionally, ABS is offered as
-                                        standard. Suspension duties are taken care of by 37mm telescopic front forks and
-                                        a 5-step adjustable monoshock at the back.</p>
+                                        brake at the front and a 220mm disc at the rear.</p>
+                                    <h4 class="text-dark">Click purchase to purchase the bike!</h4>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary"
                                         data-bs-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                    <button type="button" class="btn btn-primary">Purchase</button>
                                 </div>
                             </div>
                         </div>
@@ -110,7 +111,7 @@
         <section class="container my-5">
             <div class="text-center my-5">
                 <h1>Featured Bikes 2021</h1>
-                <h4>Best Bike Collection</h4>
+                <h4 class="red-text">Best Bike Collection</h4>
             </div>
             <div class="row g-5">
                 <div class="col-lg-4 col-md-6 col-12">
@@ -128,11 +129,11 @@
         happy clients starts here 
         ------------------->
         <section class="w-75 mx-auto my-5">
-            <h1 class="text-center my-3">Happy Clients says</h1>
+            <h1 class="text-center my-3">Happy <span class="red-text">Clients says</span></h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
                     <div class="card h-100">
-                        <div class="p-5">
+                        <div class="px-5 py-4">
                             <img src="images/user-1.png" class="card-img-top" alt="...">
                         </div>
                         <div class="card-body text-center">
@@ -145,14 +146,14 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="far fa-star"></i>
-                            <h5>Adam Lewis</h5>
+                            <h5 class="text-primary">Adam Lewis</h5>
                             <h6>Banker</h6>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <div class="p-5">
+                        <div class="px-5 py-4">
                             <img src="images/user-2.png" class="card-img-top" alt="...">
                         </div>
                         <div class="card-body text-center">
@@ -165,15 +166,15 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="far fa-star"></i>
-                            <h5>Emma wattson</h5>
+                            <h5 class="text-primary">Emma wattson</h5>
                             <h6>Actress</h6>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <div class="p-5">
-                            <img src="images/user-3.jpg" class="card-img-top" alt="...">
+                        <div class="px-5 py-4">
+                            <img src="images/user-3.png" class="card-img-top" alt="...">
                         </div>
                         <div class="card-body text-center">
                             <p>Slate helps you see how
@@ -185,7 +186,7 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="far fa-star"></i>
-                            <h5>Regina Miles</h5>
+                            <h5 class="text-primary">Regina Miles</h5>
                             <h6>Doctor</h6>
                         </div>
                     </div>
@@ -195,8 +196,8 @@
         <!-----------------
         frequently asked ques starts here 
         ------------------->
-        <section class="container my-5">
-            <h1 class="text-center my-3">Frequently Asked Questions</h1>
+        <section class="w-75 mx-auto my-5">
+            <h1 class="text-center my-3">Frequently Asked <span class="red-text">Questions</span></h1>
             <div class="row d-flex align-items-center">
                 <div class="col-md-6 col-12">
                     <img class="img-fluid" src="images/faq.png" alt="">
@@ -214,9 +215,10 @@
                             </h2>
                             <div id="flush-collapseOne" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the first item's
-                                    accordion body.</div>
+                                <div class="accordion-body">Safety First! Always obey the rules of the road. Obey all
+                                    traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just
+                                    “riding” your bike. This will help you be a more focused and legally compliant bike
+                                    rider.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -230,9 +232,11 @@
                             </h2>
                             <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the second item's
-                                    accordion body. Let's imagine this being filled with some actual content.</div>
+                                <div class="accordion-body">Bear in mind that if the helmet did its job most people
+                                    would tell you that they did not even hit their head, or did not hit their head that
+                                    hard. And the thin shells on most helmets now tend to hide any dents in the foam.
+                                    But if you can see marks on the shell or measure any foam crush at all, replace the
+                                    helmet.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -245,11 +249,10 @@
                             </h2>
                             <div id="flush-collapseThree" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the third item's
-                                    accordion body. Nothing more exciting happening here in terms of content, but just
-                                    filling up the space to make it look, at least at first glance, a bit more
-                                    representative of how this would look in a real-world application.</div>
+                                <div class="accordion-body">The bottom line: Leaving your bike in the storage for a day
+                                    or two won't do major damage. You may see signs of rust after a week of neglect.
+                                    After one month in bad conditions, your beloved bike parts will start to degrade.
+                                </div>
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="flush-headingThree">
@@ -261,24 +264,99 @@
                                 </h2>
                                 <div id="flush-collapseThree" class="accordion-collapse collapse"
                                     aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is
-                                        intended to
-                                        demonstrate the <code>.accordion-flush</code> class. This is the third item's
-                                        accordion body. Nothing more exciting happening here in terms of content, but
-                                        just
-                                        filling up the space to make it look, at least at first glance, a bit more
-                                        representative of how this would look in a real-world application.</div>
+                                    <div class="accordion-body">Go With the Traffic Flow. Ride on the right in the same
+                                        direction as other vehicles.
+                                        Obey All Traffic Laws. A bicycle is a vehicle and you're a driver.
+                                        Yield to Traffic When Appropriate.
+                                        Be Predictable. Stay Alert at All Times. Look Before Turning. Watch for Parked
+                                        Cars.</div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
         </section>
-
+        <!-----------------
+        popularity progress starts here 
+        ------------------->
+        <section class="w-75 mx-auto my-5">
+            <h1 class="text-center">Our Popularity over <span class="red-text">the years.</span></h1>
+            <h4><span class="text-primary">Year</span> 2016-17</h4>
+            <div class="progress my-3">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 30%" aria-valuenow="10"
+                    aria-valuemin="0" aria-valuemax="100">30 parcent</div>
+            </div>
+            <h4><span class="text-success">Year</span> 2017-18</h4>
+            <div class="progress my-3">
+                <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 40%"
+                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">40 percent</div>
+            </div>
+            <h4><span class="text-info">Year</span> 2018-19</h4>
+            <div class="progress my-3">
+                <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%"
+                    aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50 percent</div>
+            </div>
+            <h4><span class="text-warning">Year</span> 2019-20</h4>
+            <div class="progress my-3">
+                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 60%"
+                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">60 percent</div>
+            </div>
+            <h4><span class="text-danger">Year</span> 2020-21</h4>
+            <div class="progress my-3">
+                <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 80%"
+                    aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">70 percent</div>
+            </div>
+        </section>
+        <!-----------------
+        forms starts here 
+        ------------------->
+        <section id="purchase" class="w-75 mx-auto my-5">
+            <h1 class="text-center my-5">Purchase any <span class="red-text">of our bike here.</span></h1>
+            <form class="row g-3 bg-light p-3 rounded-3 shadow-lg">
+                <div class="col-md-6 col-12">
+                    <label for="inputEmail4" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="inputEmail4" required>
+                </div>
+                <div class="col-md-6 col-12">
+                    <label for="inputPassword4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputPassword4" required>
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Address</label>
+                    <input type="text" class="form-control" id="inputAddress"
+                        placeholder="Road no, Building or House code, floor" required>
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Address 2</label>
+                    <input type="text" class="form-control" id="inputAddress2"
+                        placeholder="Post Code, Post office, Thana or Upazila" required>
+                </div>
+                <div class="col-md-6 col-12">
+                    <label for="inputCity" class="form-label">City</label>
+                    <input type="text" class="form-control" id="inputCity" required>
+                </div>
+                <div class="col-md-4 col-12">
+                    <label for="inputDivision" class="form-label">Division</label>
+                    <input type="text" class="form-control" id="inputDivision" required>
+                </div>
+                <div class="col-md-2 col-12">
+                    <label for="inputModel" class="form-label">Bike Model</label>
+                    <input type="text" class="form-control" id="inputModel" required>
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                        <label class="form-check-label" for="gridCheck">
+                            I accept terms and conditions
+                        </label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Purchase</button>
+                </div>
+            </form>
+        </section>
     </main>
-    <footer>
-
-    </footer>
 
     <!-- bootstrap js cdn -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

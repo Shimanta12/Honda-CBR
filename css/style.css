@@ -1,13 +1,19 @@
+.header {
+    background-color: #264653;
+}
 .button {
     background-color: #E76F51;
     color: white;
     padding: 10px 25px;
     border: none;
-    border-radius: 20px;
+    border-radius: 5px;
+}
+.red-text{
+    color: #E76F51;
 }
 .grayscale-image {
     filter: grayscale(1);
 }
 .fas{
-    color: goldenrod;
+    color: #E77C40;
 }
